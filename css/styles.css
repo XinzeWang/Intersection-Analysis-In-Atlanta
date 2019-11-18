@@ -70,11 +70,6 @@ body {
   font-size: 1.5rem;
 }
 
-/* buttons */
-.download-button {
-  margin: 5% 3% 5% 0;
-}
-
 /* title image */
 .title-image {
   box-shadow: 7px 10px 12px -5px rgba(0, 0, 0, 0.5);
@@ -129,7 +124,7 @@ body {
   color: #fff;
 }
 
-.testimonial-image {
+.city-image {
   width: 700px;
   height: 500px;
   border-radius: 10%;
