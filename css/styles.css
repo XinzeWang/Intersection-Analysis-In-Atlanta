@@ -1,0 +1,185 @@
+#title {
+  background-color: #222831;
+  color: #fff;
+}
+
+a {
+  font-size: 3rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+/* heading */
+.big-heading {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* navigation bar*/
+
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+}
+
+/* buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.title-image {
+  box-shadow: 7px 10px 12px -5px rgba(0, 0, 0, 0.5);
+  width: 110%;
+  transform: rotate(10deg);
+  position: absolute;
+  left: 5%;
+  right: 10%;
+  border-radius: 20%;
+}
+
+/* data */
+#data {
+  padding: 5% 10%;
+  text-align: center;
+  background-color: #eeeeee;
+  position: relative;
+  /* z-index: 1; */
+}
+
+.data-heading {
+  font-size: 2.8rem;
+  line-height: 1.5;
+  padding-top: 10%;
+}
+
+.data-container {
+  padding-bottom: 5%;
+}
+
+.approach-p {
+  font-size: 1.4rem;
+}
+
+.feature-box {
+  padding: 7% auto 7% auto;
+}
+
+.icon {
+  color: #393e46;
+  margin-bottom: 10px;
+}
+
+.icon:hover {
+  color: #00adb5;
+}
+
+/* <!-- Testimonials --> */
+#cities {
+  text-align: center;
+  background-color: #393e46;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 700px;
+  height: 500px;
+  border-radius: 10%;
+  margin: 20px 20px 5px;
+  box-shadow: 7px 10px 12px -5px rgba(0, 0, 0, 0.5);
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.city-name {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* insights */
+#insights {
+  background-color: #eeeeee;
+  padding: 7% 10%;
+}
+
+.insight-image {
+  width: 30%;
+  margin: 5px 10px 20px;
+}
+
+.insight-title {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* foot */
+#footer {
+  padding: 2% 5%;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}

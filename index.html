@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Intersection Analysis</title>
+
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,900|Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- css stylesheets -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/fa9afbf663.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- bootstrap scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <section id="title">
+      <div class="container-fluid">
+        <!-- 0. Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand h1" href="#">CSE-6242 🚕 🚙 🚎 🚌 Team 31</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- href should be changed -->
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#title">Intro</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pricing">Data</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#cities">Visualization</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#insights">Insights</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- 1. Title -->
+
+        <div class="row">
+          <div class="col-lg-6">
+            <h1 class="big-heading">
+              Intersection Congestion Pattern and Traffic Bottleneck
+              Identification in Cities
+            </h1>
+          </div>
+          <div class="col-lg-6">
+            <img
+              class="title-image"
+              src="images/intersection.jpg"
+              alt="Intersection"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. Approch -->
+
+    <section id="data">
+      <div class="row data-container">
+        <img class=" col-lg-6 data-image" src="images/data1.png" alt="data" />
+        <div class="col-lg-6">
+          <h1 class="data-heading">
+            Data Analytics & Algorithm Exploration
+          </h1>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4 feature-box">
+          <i class="icon fas fa-dot-circle fa-4x"></i>
+
+          <h2>Goal</h2>
+          <p class="approach-p">
+            Exploring congestion patterns, mapping the spatial distribution of
+            congested nodes and identifying the traffic bottlenecks can lead to
+            targeted optimization
+          </p>
+        </div>
+        <div class="col-lg-4 feature-box">
+          <i class="icon fab fa-angellist fa-4x"></i>
+
+          <h2>Approach</h2>
+          <p class="approach-p">
+            Splitting the congested intersections into different categories
+            according to the congested traffic direction, road type, degree of
+            congestion etc.
+          </p>
+        </div>
+        <div class="col-lg-4 feature-box">
+          <i class="icon fas fa-heart fa-4x"></i>
+
+          <h2>Explore</h2>
+          <p class="approach-p">
+            Exploring the spatial characters of all the congested intersections
+            in a city so that we can identify the main traffic bottlenecks
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+
+    <section id="cities">
+      <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h1 class="city-name">
+              Intersections in Atlanta
+            </h1>
+            <img
+              class="testimonial-image"
+              src="images/atlanta.jpg"
+              alt="Atlanta"
+            />
+          </div>
+          <div class="carousel-item">
+            <h1 class="city-name">
+              Intersections in Boston
+            </h1>
+            <img
+              class="testimonial-image"
+              src="images/boston.png"
+              alt="Boston"
+            />
+          </div>
+          <div class="carousel-item">
+            <h1 class="city-name">
+              Intersections in Chicago
+            </h1>
+            <img
+              class="testimonial-image"
+              src="images/chicago.jpg"
+              alt="Chicago"
+            />
+          </div>
+          <div class="carousel-item">
+            <h1 class="city-name">
+              Intersections in Philadelphia
+            </h1>
+            <img
+              class="testimonial-image"
+              src="images/philadelphia.jpg"
+              alt="Philadelphia"
+            />
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#testimonial-carousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#testimonial-carousel"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Insights -->
+
+    <section id="insights">
+      <h1 class="insight-title">Insights From Data</h1>
+
+      <img class="insight-image" src="images/design1.png" alt="design" />
+      <img class="insight-image" src="images/design2.png" alt="design" />
+      <img class="insight-image" src="images/design3.png" alt="design" />
+    </section>
+
+    <!-- Footer -->
+
+    <footer id="footer">
+      <i class="social-icon fab fa-3x fa-twitter"></i>
+      <i class="social-icon fab fa-3x fa-facebook"></i>
+      <i class="social-icon fab fa-3x fa-instagram"></i>
+      <i class="social-icon fas fa-3x fa-envelope"></i>
+
+      <p>© Copyright 2019 Team31</p>
+    </footer>
+  </body>
+</html>
