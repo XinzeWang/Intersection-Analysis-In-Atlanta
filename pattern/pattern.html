@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Intersection Analysis</title>
+
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,900|Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- css stylesheets -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/fa9afbf663.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- bootstrap scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <section id="title">
+      <div class="container-fluid">
+        <!-- 0. Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand h1" href="../index.html"
+            >CSE-6242 🚕 🚙 🚎 🚌 Team 31</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- href should be changed -->
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Intro</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pattern/pattern.html">Pattern</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#cities">Spatial</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#insights">Insights</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="row">
+          <div class="col-lg-8">
+            <h1 class="big-heading">
+              Intersections Patterns in Atlanta
+            </h1>
+            <img
+              class="city-image"
+              src="../images/map_example.png"
+              alt="Atlanta"
+            />
+          </div>
+          <div class="col-lg-4">
+            <a
+              type="button"
+              class="btn btn-lg btn-light choose-time"
+              href="maps/map1.html"
+            >
+              Evening Busy(16:00-20:00)
+            </a>
+            <a
+              type="button"
+              class="btn btn-lg btn-light choose-time"
+              href="maps/map1.html"
+            >
+              Midnight(22:00-07:00)
+            </a>
+            <a
+              type="button"
+              class="btn btn-lg btn-light choose-time"
+              href="maps/map1.html"
+            >
+              MorningBusy(07:00-10:00)
+            </a>
+            <a
+              type="button"
+              class="btn btn-lg btn-light choose-time"
+              href="maps/map1.html"
+            >
+              NormalDay(10:00-16:00)
+            </a>
+            <a
+              type="button"
+              class="btn btn-lg btn-light choose-time"
+              href="maps/map1.html"
+            >
+              NormalNight(20:00-22:00)
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

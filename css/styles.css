@@ -168,6 +168,13 @@ body {
   margin: 20px 10px;
 }
 
+/* pattern page */
+
+.choose-time {
+  margin-top: 30px;
+  padding: 10px;
+}
+
 @media (max-width: 1028px) {
   #title {
     text-align: center;
