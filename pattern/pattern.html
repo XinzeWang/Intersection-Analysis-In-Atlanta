@@ -4,6 +4,16 @@
     <meta charset="utf-8" />
     <title>Intersection Analysis</title>
 
+    <!-- leaflet  -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css"
+    />
+    <link
+      rel="stylesheet"
+      href="http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css"
+    />
+
     <!-- google fonts -->
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat:400,900|Ubuntu&display=swap"
@@ -47,7 +57,7 @@
     <section id="title">
       <div class="container-fluid">
         <!-- 0. Nav Bar -->
-        <nav class="navbar navbar-expand-lg navbar-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-spatial">
           <a class="navbar-brand h1" href="../index.html"
             >CSE-6242 🚕 🚙 🚎 🚌 Team 31</a
           >
@@ -76,59 +86,544 @@
                 <a class="nav-link" href="../spatial/spatial.html">Spatial</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#insights">Insights</a>
+                <a class="nav-link" href="../index.html#insights">Insights</a>
               </li>
             </ul>
           </div>
         </nav>
         <div class="row">
-          <div class="col-lg-8">
-            <h1 class="big-heading">
+          <div class="col-lg-12">
+            <h1 class="big-heading pattern-title">
               Intersections Patterns in Atlanta
             </h1>
+
+            <!-- insert map here -->
+            <div class="col-lg-12" id="map"></div>
+            <p class="voronoi">Atlanta Intersection Cluster Example</p>
+            <hr />
+            <h1 class="pattern-title2">
+              Clusters Visualization Plot
+            </h1>
+            <h4 class="second-title">Left-3D plot and Right-TSNE plot</h4>
             <img
-              class="city-image"
-              src="../images/map_example.png"
-              alt="Atlanta"
+              class="left-3d"
+              src="../images/3d-plot.png"
+              alt="Philadelphia"
             />
           </div>
-          <div class="col-lg-4">
-            <a
-              type="button"
-              class="btn btn-lg btn-light choose-time"
-              href="maps/map1.html"
-            >
-              Evening Busy(16:00-20:00)
-            </a>
-            <a
-              type="button"
-              class="btn btn-lg btn-light choose-time"
-              href="maps/map1.html"
-            >
-              Midnight(22:00-07:00)
-            </a>
-            <a
-              type="button"
-              class="btn btn-lg btn-light choose-time"
-              href="maps/map1.html"
-            >
-              MorningBusy(07:00-10:00)
-            </a>
-            <a
-              type="button"
-              class="btn btn-lg btn-light choose-time"
-              href="maps/map1.html"
-            >
-              NormalDay(10:00-16:00)
-            </a>
-            <a
-              type="button"
-              class="btn btn-lg btn-light choose-time"
-              href="maps/map1.html"
-            >
-              NormalNight(20:00-22:00)
-            </a>
-          </div>
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+          <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+          <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+          <script src="./data/Weekday_NormalDay/0.js"></script>
+          <script src="./data/Weekday_NormalDay/1.js"></script>
+          <script src="./data/Weekday_NormalDay/2.js"></script>
+          <script src="./data/Weekday_NormalDay/3.js"></script>
+          <script src="./data/Weekday_NormalDay/4.js"></script>
+          <script src="./data/Weekday_NormalDay/5.js"></script>
+
+          <!--     <script src="./data/CongestionPattern/cluster/Weekday_EveningBusy/1.geojson"></script>-->
+
+          <!--    <script src="js/leaflet.awesome-markers.js"></script>-->
+          <!--    <script src="js/leaflet.extra-markers.min.js"></script>-->
+          <script>
+            var mbAttr = "",
+              mbUrl =
+                "https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw";
+
+            var grayscale = L.tileLayer(mbUrl, {
+                id: "mapbox/light-v9",
+                attribution: mbAttr
+              }),
+              streets11 = L.tileLayer(mbUrl, {
+                id: "mapbox/streets-v11",
+                attribution: mbAttr
+              }),
+              streets8 = L.tileLayer(mbUrl, {
+                id: "mapbox/streets-v8",
+                attribution: mbAttr
+              });
+
+            var map = L.map("map", {
+              center: [33.753746, -84.38633],
+              zoom: 15,
+              layers: [streets11]
+            });
+
+            /*Legend specific*/
+            var legend = L.control({ position: "topright" });
+
+            legend.onAdd = function(map) {
+              var div = L.DomUtil.create("div", "legend");
+              div.innerHTML += "<h4>Cluster</h4>";
+              div.innerHTML +=
+                '<i style="background: #448D40"></i><span>0: Mild left and right turn congestion</span><br>';
+              div.innerHTML +=
+                '<i style="background: #477AC2"></i><span>1: Median all way congestion</span><br>';
+              div.innerHTML +=
+                '<i style="background: #ff7800"></i><span>2: Severe left turn and right turn congestion</span><br>';
+              div.innerHTML +=
+                '<i style="background: #9666e8"></i><span>3: Mild all way congestion</span><br>';
+              div.innerHTML +=
+                '<i style="background: #fce156"></i><span>4: Mild left turn and going straight congestion</span><br>';
+              div.innerHTML +=
+                '<i style="background: #ed6d68"></i><span>5: Median left turn congestion</span><br>';
+
+              // div.innerHTML += '<i class="icon" style="background-image: url(https://d30y9cdsu7xlg0.cloudfront.net/png/194515-200.png);background-repeat: no-repeat;"></i><span>Grænse</span><br>';
+
+              return div;
+            };
+
+            legend.addTo(map);
+
+            var baseLayers = {
+              streets11: streets11,
+              streets8: streets8,
+              Grayscale: grayscale
+            };
+            // L.control.layers(baseLayers).addTo(map)
+
+            // cluster0###############################################################################
+            function createCircleMarker(feature, latlng) {
+              // if(feature.properties.cluster < 1) {
+              //     rad = 15;
+              // }else {
+              //     rad = 10;
+              // }
+
+              var res = L.circleMarker(latlng, {
+                radius: 10,
+                fillColor: "#448D40",
+                color: "#ffffff",
+                weight: 2,
+                opacity: 1,
+                fillOpacity: 0.8
+              });
+
+              res
+                .bindTooltip(function(e) {
+                  // console.log(e.feature.properties.cluster);
+                  return (
+                    "<b>" +
+                    "Average Waiting time" +
+                    "</b><br />" +
+                    "Left: " +
+                    "21.3" +
+                    "</b><br />" +
+                    "Right: " +
+                    "18.8" +
+                    "</b><br />" +
+                    "Straight: " +
+                    "0.0" +
+                    "<br /><b>" +
+                    "Cluster Interpretation" +
+                    "</b><br />" +
+                    "Mild left and right turn congestion"
+                  );
+                })
+                .openTooltip();
+
+              return res;
+            }
+
+            // create an options object that specifies which function will called on each feature
+            let myLayerOptions = {
+              pointToLayer: createCircleMarker
+            };
+
+            var cluster00 = L.geoJson(cluster0, myLayerOptions);
+
+            // create the GeoJSON layer
+            var myLayer = cluster00.addTo(map);
+            // cluster0###############################################################################
+
+            // cluster1###############################################################################
+
+            function createCircleMarker1(feature, latlng) {
+              var res = L.circleMarker(latlng, {
+                radius: 10,
+                fillColor: "#477AC2",
+                color: "#ffffff",
+                weight: 2,
+                opacity: 1,
+                fillOpacity: 0.8
+              });
+
+              res
+                .bindTooltip(function(e) {
+                  // console.log(e.feature.properties.cluster);
+                  return (
+                    "<b>" +
+                    "Average Waiting time" +
+                    "</b><br />" +
+                    "Left: " +
+                    "48.1" +
+                    "</b><br />" +
+                    "Right: " +
+                    "49.3" +
+                    "</b><br />" +
+                    "Straight: " +
+                    "32.7" +
+                    "<br /><b>" +
+                    "Cluster Interpretation" +
+                    "</b><br />" +
+                    "Median all way congestion"
+                  );
+                })
+                .openTooltip();
+
+              return res;
+            }
+
+            // create an options object that specifies which function will called on each feature
+            let myLayerOption1 = {
+              pointToLayer: createCircleMarker1
+            };
+
+            var cluster11 = L.geoJson(cluster1, myLayerOption1);
+
+            var myLayer1 = cluster11.addTo(map);
+
+            // cluster1##############################################################################
+
+            // cluster2##############################################################################
+
+            function createCircleMarker2(feature, latlng) {
+              console.log(feature.properties.cluster);
+
+              // if(feature.properties.cluster > 1) {
+              //     rad = 15;
+              // }else {
+              //     rad = 10;
+              // }
+
+              var res = L.circleMarker(latlng, {
+                radius: 10,
+                fillColor: "#ff7800",
+                color: "#ffffff",
+                weight: 2,
+                opacity: 1,
+                fillOpacity: 0.8
+              });
+
+              res
+                .bindTooltip(function(e) {
+                  // console.log(e.feature.properties.cluster);
+                  return (
+                    "<b>" +
+                    "Average Waiting time" +
+                    "</b><br />" +
+                    "Left: " +
+                    "87.7" +
+                    "</b><br />" +
+                    "Right: " +
+                    "64.8" +
+                    "</b><br />" +
+                    "Straight: " +
+                    "51.3" +
+                    "<br /><b>" +
+                    "Cluster Interpretation" +
+                    "</b><br />" +
+                    "Severe left turn and right turn congestion"
+                  );
+                })
+                .openTooltip();
+
+              return res;
+            }
+
+            // create an options object that specifies which function will called on each feature
+            let myLayerOptions2 = {
+              // onEachFeature: onEachFeature,
+
+              pointToLayer: createCircleMarker2
+            };
+
+            var cluster22 = L.geoJson(cluster2, myLayerOptions2);
+
+            var myLayer2 = cluster22.addTo(map);
+
+            // cluster0###############################################################################
+            function createCircleMarker3(feature, latlng) {
+              // if(feature.properties.cluster < 1) {
+              //     rad = 15;
+              // }else {
+              //     rad = 10;
+              // }
+
+              var res = L.circleMarker(latlng, {
+                radius: 10,
+                fillColor: "#9666e8",
+                color: "#ffffff",
+                weight: 2,
+                opacity: 1,
+                fillOpacity: 0.8
+              });
+
+              res
+                .bindTooltip(function(e) {
+                  // console.log(e.feature.properties.cluster);
+                  return (
+                    "<b>" +
+                    "Average Waiting time" +
+                    "</b><br />" +
+                    "Left: " +
+                    "22.2" +
+                    "</b><br />" +
+                    "Right: " +
+                    "22.2" +
+                    "</b><br />" +
+                    "Straight: " +
+                    "15.1" +
+                    "<br /><b>" +
+                    "Cluster Interpretation" +
+                    "</b><br />" +
+                    "Mild all way congestion"
+                  );
+                })
+                .openTooltip();
+
+              return res;
+            }
+
+            // create an options object that specifies which function will called on each feature
+            let myLayerOptions3 = {
+              pointToLayer: createCircleMarker3
+            };
+
+            var cluster33 = L.geoJson(cluster3, myLayerOptions3);
+
+            // create the GeoJSON layer
+            var myLayer3 = cluster33.addTo(map);
+            // cluster0###############################################################################
+
+            // cluster0###############################################################################
+            function createCircleMarker4(feature, latlng) {
+              // if(feature.properties.cluster < 1) {
+              //     rad = 15;
+              // }else {
+              //     rad = 10;
+              // }
+
+              var res = L.circleMarker(latlng, {
+                radius: 10,
+                fillColor: "#fce156",
+                color: "#ffffff",
+                weight: 2,
+                opacity: 1,
+                fillOpacity: 0.8
+              });
+
+              res
+                .bindTooltip(function(e) {
+                  // console.log(e.feature.properties.cluster);
+                  return (
+                    "<b>" +
+                    "Average Waiting time" +
+                    "</b><br />" +
+                    "Left: " +
+                    "33.6" +
+                    "</b><br />" +
+                    "Right: " +
+                    "0.0" +
+                    "</b><br />" +
+                    "Straight: " +
+                    "13.3" +
+                    "<br /><b>" +
+                    "Cluster Interpretation" +
+                    "</b><br />" +
+                    "Mild left turn and going straight congestion"
+                  );
+                })
+                .openTooltip();
+
+              return res;
+            }
+
+            // create an options object that specifies which function will called on each feature
+            let myLayerOptions4 = {
+              pointToLayer: createCircleMarker4
+            };
+
+            var cluster44 = L.geoJson(cluster4, myLayerOptions4);
+
+            // create the GeoJSON layer
+            var myLayer4 = cluster44.addTo(map);
+            // cluster0###############################################################################
+
+            // cluster0###############################################################################
+            function createCircleMarker5(feature, latlng) {
+              //
+              // if(feature.properties.cluster < 1) {
+              //     rad = 15;
+              // }else {
+              //     rad = 10;
+              // }
+
+              var res = L.circleMarker(latlng, {
+                radius: 10,
+                fillColor: "#ed6d68",
+                color: "#ffffff",
+                weight: 2,
+                opacity: 1,
+                fillOpacity: 0.8
+              });
+
+              res
+                .bindTooltip(function(e) {
+                  // console.log(e.feature.properties.cluster);
+                  return (
+                    "<b>" +
+                    "Average Waiting time" +
+                    "</b><br />" +
+                    "Left: " +
+                    "48.3" +
+                    "</b><br />" +
+                    "Right: " +
+                    "20.8" +
+                    "</b><br />" +
+                    "Straight: " +
+                    "26.3" +
+                    "<br /><b>" +
+                    "Cluster Interpretation" +
+                    "</b><br />" +
+                    "Median left turn congestion"
+                  );
+                })
+                .openTooltip();
+
+              return res;
+            }
+
+            // create an options object that specifies which function will called on each feature
+            let myLayerOptions5 = {
+              pointToLayer: createCircleMarker5
+            };
+
+            var cluster55 = L.geoJson(cluster5, myLayerOptions5);
+
+            // create the GeoJSON layer
+            var myLayer5 = cluster55.addTo(map);
+            // cluster0###############################################################################
+
+            // cluster3##############################################################################
+
+            var overlays = {
+              cluster0: myLayer,
+              cluster1: myLayer1,
+              cluster2: myLayer2,
+              cluster3: myLayer3,
+              cluster4: myLayer4,
+              cluster5: myLayer5
+            };
+
+            L.control.layers(baseLayers, overlays).addTo(map);
+
+            // ========================================================================
+
+            // control that shows state info on hover
+            var info = L.control({ position: "bottomleft" });
+            // var legend = L.control({ position: "bottomleft" });
+
+            info.onAdd = function(map) {
+              this._div = L.DomUtil.create("div", "info");
+              this.update();
+              return this._div;
+            };
+
+            // info.update = function (props) {
+            //     // console.log();
+            // 	this._div.innerHTML = '<h4>Cluster Interpretation\n</h4>' +  (props ?
+            // 		'<b>' + props.InterIdNew + '</b><br />' + props.TimeSlot + '</b><br />' + props.cluster+ ' people / mi<sup>2</sup>'
+            // 		: 'Hover over a state');
+            // };
+
+            info.update = function(props) {
+              // console.log();
+              this._div.innerHTML =
+                "<h4>Atlanta\n</h4>" +
+                (props
+                  ? "<b>" +
+                    props.InterIdNew +
+                    "</b><br />" +
+                    props.TimeSlot +
+                    "</b><br />" +
+                    props.cluster +
+                    " people / mi<sup>2</sup>"
+                  : "EveningBusy(10:00-16:00)");
+            };
+
+            info.addTo(map);
+
+            function highlightFeature(e) {
+              var layer = e.target;
+
+              layer.setStyle({
+                weight: 5,
+                color: "#666",
+                dashArray: "",
+                fillOpacity: 0.7
+              });
+
+              if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+                layer.bringToFront();
+              }
+
+              info.update(layer.feature.properties);
+            }
+
+            var geojson;
+
+            function resetHighlight(e) {
+              // geojson.resetStyle(e.target);
+              info.update();
+            }
+
+            function zoomToFeature(e) {
+              map.fitBounds(e.target.getBounds());
+            }
+
+            function onEachFeature(feature, layer) {
+              layer.on({
+                mouseover: highlightFeature,
+                mouseout: resetHighlight,
+                click: zoomToFeature
+              });
+            }
+
+            // geojson = L.geoJson(statesData, {
+            // 	// style: style,
+            // 	onEachFeature: onEachFeature
+            // }).addTo(map);
+
+            // ======================================================================
+
+            //         var popup = L.popup();
+            //
+            // function onMapClick(e) {
+            //     console.log(e);
+            //     popup
+            //         .setLatLng(e.latlng)
+            //         .setContent("You clicked the map at " + e.latlng.toString())
+            //         .openOn(map);
+            // }
+            //
+            // map.on('click', onMapClick);
+
+            // var box = L.control({ position: "topleft" });
+            //
+            // box.onAdd = function(map) {
+            // var div = L.DomUtil.create('div', 'info legend');
+            //     div.innerHTML = '<select>' +
+            //         '<option>1</option>' +
+            //         '<option>2</option>' +
+            //         '<option>3</option>' +
+            //         '</select>';
+            //     div.firstChild.onmousedown = div.firstChild.ondblclick = L.DomEvent.stopPropagation;
+            // return div;
+            // }
+            //
+            // box.addTo(map);
+          </script>
         </div>
       </div>
     </section>

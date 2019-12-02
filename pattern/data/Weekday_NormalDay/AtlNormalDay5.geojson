@@ -1,0 +1,1875 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "": "232",
+        "Left": "44.5",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_380",
+        "Unnamed: 0": "2254",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "27.408148217123"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.39423,
+          33.722
+        ],
+        "type": "Point"
+      },
+      "id": "05238967b92acb064aa5ed03627eab6f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "217",
+        "Left": "13.0",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_361",
+        "Unnamed: 0": "2111",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "12.0"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.29223,
+          33.75162
+        ],
+        "type": "Point"
+      },
+      "id": "055e815f24310cc490bf5c582711f369"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "155",
+        "Left": "11.5",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_287",
+        "Unnamed: 0": "1509",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "0.0"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.41331,
+          33.73191
+        ],
+        "type": "Point"
+      },
+      "id": "066e2e9fd458b63530a16e16020dc4b6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "248",
+        "Left": "52.4025644216311",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_399",
+        "Unnamed: 0": "2411",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "39.700278040543104"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.291,
+          33.74478
+        ],
+        "type": "Point"
+      },
+      "id": "09cc49ea8e847f262a9fa16e45b1f84f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "218",
+        "Left": "29.0",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_362",
+        "Unnamed: 0": "2121",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "19.0"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.39609,
+          33.76888
+        ],
+        "type": "Point"
+      },
+      "id": "0c980de31cc22703938a9d5f045b7ee6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "122",
+        "Left": "49.962858789741404",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_243",
+        "Unnamed: 0": "1186",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "52.9078417598701"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.38938,
+          33.79181
+        ],
+        "type": "Point"
+      },
+      "id": "12cf9693dcbd2488730f7820c9eda324"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "28",
+        "Left": "28.559392255469493",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_130",
+        "Unnamed: 0": "280",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "5.55775653184922"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.50026,
+          33.7936
+        ],
+        "type": "Point"
+      },
+      "id": "1557cdc49ec977e813c119d0aaae9780"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "43",
+        "Left": "20.5",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_15",
+        "Unnamed: 0": "424",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "0.0"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.38384,
+          33.7469
+        ],
+        "type": "Point"
+      },
+      "id": "22a5d4e027f696221d2e13c467eed2ab"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "243",
+        "Left": "77.0",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_392",
+        "Unnamed: 0": "2362",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "13.0"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.36053,
+          33.82537
+        ],
+        "type": "Point"
+      },
+      "id": "2405cd62af26bb171fc11187707f94bc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "57",
+        "Left": "0.0",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_166",
+        "Unnamed: 0": "560",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "6.0"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.390369,
+          33.76403
+        ],
+        "type": "Point"
+      },
+      "id": "245665629e18f98cfa5ed52d8f422ba8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "45",
+        "Left": "29.649786588856397",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_151",
+        "Unnamed: 0": "444",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "7.0"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.37805,
+          33.75438
+        ],
+        "type": "Point"
+      },
+      "id": "2a9b88be1ab20931615bb46bf0237ada"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "2",
+        "Left": "0.0",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_10",
+        "Unnamed: 0": "23",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "0.0"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.397619,
+          33.65287
+        ],
+        "type": "Point"
+      },
+      "id": "2cbd2f569a8ca1f1087b8c873ffbe15a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "179",
+        "Left": "18.8626531456291",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_316",
+        "Unnamed: 0": "1738",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "9.134320113792857"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.40753,
+          33.78707
+        ],
+        "type": "Point"
+      },
+      "id": "32e28739f620a6c5a76a375cd6c1d8c9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "15",
+        "Left": "17.2448244080208",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_115",
+        "Unnamed: 0": "150",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "0.0"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.386119,
+          33.75556
+        ],
+        "type": "Point"
+      },
+      "id": "3c7af2fca4cdd2fba7d9b922ab12ad5d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "272",
+        "Left": "7.0",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_429",
+        "Unnamed: 0": "2644",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "47.5"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.48329,
+          33.69819
+        ],
+        "type": "Point"
+      },
+      "id": "3d01f82fea5d57c6b69256e29f065ae6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "71",
+        "Left": "0.0",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_185",
+        "Unnamed: 0": "693",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "0.0"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.479109,
+          33.70126
+        ],
+        "type": "Point"
+      },
+      "id": "41b021c31e93eb996c6648e64ed339ec"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "330",
+        "Left": "15.0",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_502",
+        "Unnamed: 0": "3211",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "0.0"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.38608,
+          33.75842
+        ],
+        "type": "Point"
+      },
+      "id": "462e7fddddf83d7aa81305c97a8d37dc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "274",
+        "Left": "32.0",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_430",
+        "Unnamed: 0": "2664",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "29.0"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.390419,
+          33.78663
+        ],
+        "type": "Point"
+      },
+      "id": "49c2497cbd1a2b11f975abfc32dd404b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "241",
+        "Left": "51.0",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_390",
+        "Unnamed: 0": "2342",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "24.0"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.34921,
+          33.74332
+        ],
+        "type": "Point"
+      },
+      "id": "4e1478a7f2516a576fe4ecc5056d91df"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "297",
+        "Left": "77.0",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_460",
+        "Unnamed: 0": "2883",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "8.5"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.34921,
+          33.75355
+        ],
+        "type": "Point"
+      },
+      "id": "4e7a0219d3bb48948634a8803f26f948"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "325",
+        "Left": "40.0",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_499",
+        "Unnamed: 0": "3162",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "31.190099292676397"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.40742,
+          33.835
+        ],
+        "type": "Point"
+      },
+      "id": "4fb2748605569c21e68e18c4ad9bad9f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "133",
+        "Left": "21.5",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_259",
+        "Unnamed: 0": "1293",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "41.3115129011474"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.38771,
+          33.74802
+        ],
+        "type": "Point"
+      },
+      "id": "535e365000cf9ad39e46e82d7e33640a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "134",
+        "Left": "16.0",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_26",
+        "Unnamed: 0": "1303",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "0.0"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.49125,
+          33.68637
+        ],
+        "type": "Point"
+      },
+      "id": "541cc10ca29db5823df19270a7bb4ab3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "371",
+        "Left": "0.0",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_92",
+        "Unnamed: 0": "3601",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "12.621945310643197"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.389,
+          33.764
+        ],
+        "type": "Point"
+      },
+      "id": "5dbf19ac8be6fbae34df1f468841adbf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "339",
+        "Left": "50.0",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_512",
+        "Unnamed: 0": "3297",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "3.0"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.49715,
+          33.673559
+        ],
+        "type": "Point"
+      },
+      "id": "5e8715ccb2fe21f3a5ce8b1b8e2bca07"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "102",
+        "Left": "20.3905826170025",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_220",
+        "Unnamed: 0": "991",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "3.90026594590991"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.39159,
+          33.75592
+        ],
+        "type": "Point"
+      },
+      "id": "60265b249376d738202063b675026c69"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "83",
+        "Left": "11.5",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_199",
+        "Unnamed: 0": "806",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "0.0"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.37357,
+          33.7507
+        ],
+        "type": "Point"
+      },
+      "id": "616091ce4a634131b9c5fb3f15d475fb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "172",
+        "Left": "45.139614834631395",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_309",
+        "Unnamed: 0": "1672",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "25.5"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.3919,
+          33.76532
+        ],
+        "type": "Point"
+      },
+      "id": "636fcdfc12b78aacf2cb24419851a49d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "212",
+        "Left": "57.0",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_352",
+        "Unnamed: 0": "2062",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "7.0"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.34903,
+          33.76998
+        ],
+        "type": "Point"
+      },
+      "id": "6600e038704206ab68bfde5c12d4dbe1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "137",
+        "Left": "0.0",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_264",
+        "Unnamed: 0": "1333",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "28.0"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.371069,
+          33.75149
+        ],
+        "type": "Point"
+      },
+      "id": "663b4ea2d990f89f3c490f73933937ab"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "360",
+        "Left": "17.0",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_72",
+        "Unnamed: 0": "3494",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "0.0"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.3527,
+          33.76271
+        ],
+        "type": "Point"
+      },
+      "id": "66b0af691c65c17a2f21c750577d54a8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "300",
+        "Left": "5.2956311895211785",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_465",
+        "Unnamed: 0": "2913",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "5.3247955011923205"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.34912,
+          33.76016
+        ],
+        "type": "Point"
+      },
+      "id": "66fa5b30a6955123ad8c503f48104645"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "177",
+        "Left": "54.0",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_314",
+        "Unnamed: 0": "1721",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "78.6762269163022"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.39211,
+          33.65013
+        ],
+        "type": "Point"
+      },
+      "id": "6ca4e7b7dee9a2217d150d60a3ead275"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "197",
+        "Left": "0.0",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_336",
+        "Unnamed: 0": "1914",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "0.0"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.32209,
+          33.7397
+        ],
+        "type": "Point"
+      },
+      "id": "6dff5f60272d2e49c412d475b3c0903a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "273",
+        "Left": "0.0",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_43",
+        "Unnamed: 0": "2654",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "11.5"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.38795,
+          33.7304
+        ],
+        "type": "Point"
+      },
+      "id": "71fc02dfea3c4c56ac9b8bd15a2f0397"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "254",
+        "Left": "22.0",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_408",
+        "Unnamed: 0": "2471",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "13.0"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.41585,
+          33.72933
+        ],
+        "type": "Point"
+      },
+      "id": "7651ef9229d4621e1e1aef1c05ea095c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "258",
+        "Left": "0.0",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_411",
+        "Unnamed: 0": "2511",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "0.0"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.30664,
+          33.74732
+        ],
+        "type": "Point"
+      },
+      "id": "7891f48bceafede71c1ffbd01aaa08a5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "103",
+        "Left": "0.0",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_221",
+        "Unnamed: 0": "1001",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "0.0"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.30266,
+          33.74719
+        ],
+        "type": "Point"
+      },
+      "id": "7916c445664e3585550dd2404492e813"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "316",
+        "Left": "79.0",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_490",
+        "Unnamed: 0": "3072",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "30.5"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.380259,
+          33.77258
+        ],
+        "type": "Point"
+      },
+      "id": "7a6e5aa03c29855225adca48eb9ae749"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "67",
+        "Left": "9.0",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_181",
+        "Unnamed: 0": "658",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "28.784164802495603"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.41373,
+          33.73211
+        ],
+        "type": "Point"
+      },
+      "id": "7c192ad7288d35f92e8c480924d6cd8a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "150",
+        "Left": "56.0",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_282",
+        "Unnamed: 0": "1459",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "19.0"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.372819,
+          33.77315
+        ],
+        "type": "Point"
+      },
+      "id": "7ef69de837f575db55bf645b59d80605"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "149",
+        "Left": "20.5",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_281",
+        "Unnamed: 0": "1449",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "1.82050756098602"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.49599,
+          33.75374
+        ],
+        "type": "Point"
+      },
+      "id": "7fbe29b35eee6a31c55828aee6448883"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "348",
+        "Left": "70.5",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_54",
+        "Unnamed: 0": "3380",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "15.0"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.52786,
+          33.69558
+        ],
+        "type": "Point"
+      },
+      "id": "829d402d20293c38e127d27ab7c995b7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "180",
+        "Left": "10.5",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_317",
+        "Unnamed: 0": "1748",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "23.0"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.39213,
+          33.75645
+        ],
+        "type": "Point"
+      },
+      "id": "847fec811f8828560dd4491d5a81c5af"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "349",
+        "Left": "20.0",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_56",
+        "Unnamed: 0": "3390",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "0.0"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.3842,
+          33.75967
+        ],
+        "type": "Point"
+      },
+      "id": "8830e51cd3883162a2bb2b7da58cf9f1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "22",
+        "Left": "50.0",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_124",
+        "Unnamed: 0": "220",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "41.0"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.36371,
+          33.7736
+        ],
+        "type": "Point"
+      },
+      "id": "8879bf93af4e255cf8941091ff6a198e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "167",
+        "Left": "14.315913118633599",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_302",
+        "Unnamed: 0": "1628",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "42.1095021994393"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.34506,
+          33.77471
+        ],
+        "type": "Point"
+      },
+      "id": "92f2c092e155894dbb85c5ddb1179d70"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "159",
+        "Left": "14.0",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_292",
+        "Unnamed: 0": "1548",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "0.0"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.38212,
+          33.76219
+        ],
+        "type": "Point"
+      },
+      "id": "94b2fcfc96edf5f0392e213a95ac9897"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "147",
+        "Left": "33.5",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_278",
+        "Unnamed: 0": "1429",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "27.0"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.39072,
+          33.77129
+        ],
+        "type": "Point"
+      },
+      "id": "9813fcacf437862ffb8a376fb68b6c74"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "237",
+        "Left": "25.0",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_386",
+        "Unnamed: 0": "2304",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "16.005423312038698"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.38763,
+          33.75844
+        ],
+        "type": "Point"
+      },
+      "id": "995ff6bcd2208ea4520e13dd7b22da8b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "145",
+        "Left": "10.0",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_274",
+        "Unnamed: 0": "1409",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "0.0"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.38908,
+          33.79189
+        ],
+        "type": "Point"
+      },
+      "id": "9a0252a8a9fce616f9ca242d09919ffb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "358",
+        "Left": "11.0",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_70",
+        "Unnamed: 0": "3474",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "67.0"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.3263,
+          33.74739
+        ],
+        "type": "Point"
+      },
+      "id": "a05188a9fc3180eda6c41b0e30bd24bc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "206",
+        "Left": "46.5",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_346",
+        "Unnamed: 0": "2004",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "28.0"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.36755,
+          33.82064
+        ],
+        "type": "Point"
+      },
+      "id": "a496722f540fd5920027bd0a81f896af"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "157",
+        "Left": "24.0",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_29",
+        "Unnamed: 0": "1528",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "14.0"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.31451,
+          33.74732
+        ],
+        "type": "Point"
+      },
+      "id": "a55a6c53c45145738e7109a824ae51ae"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "201",
+        "Left": "6.01035582077379",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_341",
+        "Unnamed: 0": "1954",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "38.961298494815004"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.36751,
+          33.80124
+        ],
+        "type": "Point"
+      },
+      "id": "a7beb90f8632e906b39c1c4b74fb406e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "56",
+        "Left": "12.9843473015377",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_165",
+        "Unnamed: 0": "552",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "0.0"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.34175,
+          33.76487
+        ],
+        "type": "Point"
+      },
+      "id": "aae98e4f67056b671bab425d584acbc8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "249",
+        "Left": "66.5",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_4",
+        "Unnamed: 0": "2421",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "34.0"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.366959,
+          33.81767
+        ],
+        "type": "Point"
+      },
+      "id": "aafe97305171faeb8abf0ee12debaf20"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "165",
+        "Left": "82.0",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_300",
+        "Unnamed: 0": "1608",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "48.5"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.40781,
+          33.801359
+        ],
+        "type": "Point"
+      },
+      "id": "ad6b16419806d43aaead4712e525c1b8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "18",
+        "Left": "0.0",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_118",
+        "Unnamed: 0": "180",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "0.0"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.38431,
+          33.75449
+        ],
+        "type": "Point"
+      },
+      "id": "ad8c618b6fa3a60350af1ff5cef610b5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "182",
+        "Left": "0.0",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_319",
+        "Unnamed: 0": "1768",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "9.25712747888227"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.39454,
+          33.74075
+        ],
+        "type": "Point"
+      },
+      "id": "af2900153df5897ef6124a90013b410b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "323",
+        "Left": "83.0",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_497",
+        "Unnamed: 0": "3142",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "9.5"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.49687,
+          33.79085
+        ],
+        "type": "Point"
+      },
+      "id": "b7022d6859fa054afef3e584903125b8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "363",
+        "Left": "114.725026809764",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_76",
+        "Unnamed: 0": "3524",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "28.126017503260197"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.34886,
+          33.76028
+        ],
+        "type": "Point"
+      },
+      "id": "b76cde48060b62a3e84440d22fdbb670"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "263",
+        "Left": "72.5",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_418",
+        "Unnamed: 0": "2561",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "19.9588774035322"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.43189,
+          33.7947
+        ],
+        "type": "Point"
+      },
+      "id": "bac844aee97544bdb1b18b1e852988f1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "242",
+        "Left": "12.4584661345698",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_391",
+        "Unnamed: 0": "2352",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "0.0"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.40741,
+          33.78715
+        ],
+        "type": "Point"
+      },
+      "id": "bbbf0d4196c48642c4d7864938648cb0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "25",
+        "Left": "22.0",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_128",
+        "Unnamed: 0": "250",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "44.0"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.30974,
+          33.74527
+        ],
+        "type": "Point"
+      },
+      "id": "be9d984cac323a555434d774ffa8c775"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "264",
+        "Left": "24.0",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_419",
+        "Unnamed: 0": "2571",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "1.86595737481544"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.349009,
+          33.76782
+        ],
+        "type": "Point"
+      },
+      "id": "c52d011a0fa64e578daee25a79fdf600"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "228",
+        "Left": "3.0",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_375",
+        "Unnamed: 0": "2216",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "13.5"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.38418,
+          33.76094
+        ],
+        "type": "Point"
+      },
+      "id": "c5b6b6ac7e7f2bf5e2ef3383d4d83d9e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "372",
+        "Left": "0.0",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_93",
+        "Unnamed: 0": "3611",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "4.1266963393266805"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.36794,
+          33.79588
+        ],
+        "type": "Point"
+      },
+      "id": "c74c4a6e61abbda4d36d4649764dc6e0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "337",
+        "Left": "55.2406447246882",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_510",
+        "Unnamed: 0": "3278",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "14.901342338789801"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.36711,
+          33.79082
+        ],
+        "type": "Point"
+      },
+      "id": "cdf349c7eb8bf452feb82d5f48bc5f6d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "305",
+        "Left": "0.0",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_472",
+        "Unnamed: 0": "2962",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "39.64667461185"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.30043,
+          33.73982
+        ],
+        "type": "Point"
+      },
+      "id": "cf1447c0c6f6cddc81af92d738921c59"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "271",
+        "Left": "0.0",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_428",
+        "Unnamed: 0": "2634",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "19.0"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.38422,
+          33.7584
+        ],
+        "type": "Point"
+      },
+      "id": "d0865ec1aeea6ed3bce95aa410a958fd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "124",
+        "Left": "15.779277692700699",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_245",
+        "Unnamed: 0": "1206",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "0.8451337797118442"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.36886,
+          33.78118
+        ],
+        "type": "Point"
+      },
+      "id": "d097518743285aaf3405a9ab6f1b1c1b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "143",
+        "Left": "0.0",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_271",
+        "Unnamed: 0": "1389",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "0.0"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.51504,
+          33.77312
+        ],
+        "type": "Point"
+      },
+      "id": "d23f620f58c298faf763ba7b5744b5c7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "351",
+        "Left": "13.0",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_58",
+        "Unnamed: 0": "3410",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "0.0"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.33182,
+          33.74743
+        ],
+        "type": "Point"
+      },
+      "id": "da96a70b3e169e62bc6b59e637c84989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "52",
+        "Left": "31.0415227089608",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_161",
+        "Unnamed: 0": "512",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "82.0"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.29547,
+          33.7395
+        ],
+        "type": "Point"
+      },
+      "id": "dc6f8129ddcbacf456a320150a183704"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "97",
+        "Left": "15.5",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_215",
+        "Unnamed: 0": "943",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "3.0"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.36745,
+          33.78569
+        ],
+        "type": "Point"
+      },
+      "id": "e7b00347175dfbd1384bde12d7cedd46"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "267",
+        "Left": "31.0",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_421",
+        "Unnamed: 0": "2601",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "70.5"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.38546,
+          33.8315
+        ],
+        "type": "Point"
+      },
+      "id": "e89a5c2d6865c7c536a0e678effe4555"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "78",
+        "Left": "61.657548451599204",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_194",
+        "Unnamed: 0": "763",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "30.928963029362503"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.39437,
+          33.65138
+        ],
+        "type": "Point"
+      },
+      "id": "f09282529d1961a2a74fabd05935fb7c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "283",
+        "Left": "0.0",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_444",
+        "Unnamed: 0": "2751",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "9.90823925400994"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.50636,
+          33.68287
+        ],
+        "type": "Point"
+      },
+      "id": "f16e42759f7594dba329731d2dca6185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "111",
+        "Left": "48.6023481919159",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_229",
+        "Unnamed: 0": "1076",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "3.5069082346177103"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.39071,
+          33.79178
+        ],
+        "type": "Point"
+      },
+      "id": "f192c3b2c02c276f67479fa94160501c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "277",
+        "Left": "49.0",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_435",
+        "Unnamed: 0": "2693",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "21.5"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.3492,
+          33.75543
+        ],
+        "type": "Point"
+      },
+      "id": "f28aba3c5901c6cf4a3083ad14096ee1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "44",
+        "Left": "0.0",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_150",
+        "Unnamed: 0": "434",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "0.0"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.34921,
+          33.75694
+        ],
+        "type": "Point"
+      },
+      "id": "f477774414de8f34755d5dddc712d903"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "324",
+        "Left": "46.0",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_498",
+        "Unnamed: 0": "3152",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "5.8027302598279284"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.408419,
+          33.74432
+        ],
+        "type": "Point"
+      },
+      "id": "f87282548e633a03f9f47d0c2123f19d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "40",
+        "Left": "63.0",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_146",
+        "Unnamed: 0": "394",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "19.8819802401895"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.39816,
+          33.74446
+        ],
+        "type": "Point"
+      },
+      "id": "f89552a9395e43155c957d91cee9966b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "138",
+        "Left": "3.0895536603044302",
+        "Weekend": "0",
+        "InterIdNew": "Atlanta_266",
+        "Unnamed: 0": "1343",
+        "TimeSlot": "NormalDay(10:00-16:00)",
+        "cluster": "0",
+        "Straight": "0.0",
+        "Right": "12.217313107333801"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.39057,
+          33.75972
+        ],
+        "type": "Point"
+      },
+      "id": "f9507a14c68f9687c111ec0942f0e3b0"
+    }
+  ],
+  "type": "FeatureCollection"
+}
