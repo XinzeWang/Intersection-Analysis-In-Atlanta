@@ -1,0 +1,14 @@
+```{r}
+library(mice)
+data = read.csv("ProgressDataOutputArchive/data_agg.csv",header=T)
+```
+
+```{r}
+model = mice(data[,5:7], method="norm.nob", m=5, seed=1234)
+data[,5:7] = complete(model)
+data[data$Left<0,'Left']=0
+data[data$Right<0,'Right']=0
+data[data$Straight<0,'Straight']=0
+summary(data)
+write.csv(data,'ProgressDataOutputArchive/data_clean.csv',row.names=FALSE,col.names=TRUE)
+```

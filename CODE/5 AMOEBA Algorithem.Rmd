@@ -1,0 +1,68 @@
+```{r}
+library(AMOEBA)
+library(maptools)
+```
+
+```{r}
+getAMOEBA<-function(address) {
+  # Get the list of neighbors of each polygon
+  a = paste('ProgressDataOutputArchive/AMOEBA/DataPrepare/',address,'/',address,'_neighbor.csv',sep='') # address of the data file
+  d = read.csv(a,header = T)
+  
+  # Since index in R starts from one, so all the id index from python should be added one
+  for (n in colnames(d)) {
+    d[is.na(d[n])==F, n] = d[is.na(d[n])==F, n] + 1
+  }
+  d = as.matrix(d)
+  d = d[,-1] # delete the index column from python
+
+  # get the list object of the neighbors of each polygon
+  neighbor = list()
+  for (i in seq(1,nrow(d))) {
+    x = vector()
+    for (j in seq(1,ncol(d))) {
+      num = d[i,j][[1]]
+      if (is.na(num)== F) {
+        x[j] = num
+      }
+    }
+    neighbor[i] = list(x)
+  }
+
+  # col.gal.nb is a S3 object from an example dataset used for AMOEBA analysis
+  # We did not find a way to change neighbor to S3 object, so we update the col.gal.nb
+  data(columbus)
+  for (i in seq(1,length(neighbor))) {
+    col.gal.nb[i] = neighbor[i]
+  }
+
+  # input waiting time
+  a = paste('ProgressDataOutputArchive/AMOEBA/DataPrepare/',address,'/',address,'.csv',sep='') # address of the data file
+  data = read.csv(a)
+  data = data[,-1] # delete the index column from python
+
+  # apply AMOEBA
+  a = paste('ProgressDataOutputArchive/AMOEBA/DataPrepare/',address,'/',address,sep='') # address of the polygon shapefile
+  map = readShapePoly(a)
+  cluster = AMOEBA(data$Ave,col.gal.nb,1,1)
+  data['cluster'] = cluster
+  
+  # output the data set with spatial clusters
+  a = paste('ProgressDataOutputArchive/AMOEBA/Results/',address,'_AMOEBA.csv',sep='')
+  write.csv(data,a,row.names=FALSE,col.names=TRUE)
+}
+```
+
+```{r}
+getAMOEBA('Weekday_EveningBusy')
+getAMOEBA('Weekday_Midnight')
+getAMOEBA('Weekday_Morningbusy')
+getAMOEBA('Weekday_Normalday')
+getAMOEBA('Weekday_Normalnight')
+getAMOEBA('Weekend_Eveningbusy')
+getAMOEBA('Weekend_Midnight')
+getAMOEBA('Weekend_Morningbusy')
+getAMOEBA('Weekend_Normalday')
+getAMOEBA('Weekend_Normalnight')
+```
+
