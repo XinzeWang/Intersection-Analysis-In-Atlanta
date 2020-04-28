@@ -6,7 +6,7 @@
 This project focus on recognize the congestion patterns among intersections and explore spatila clusters of congested intersecitons so that to indentify traffic bottlenecks in cities(mainly Atlanta).
 
 ## Webpage
-Link: https://xinzewang.github.io/Intersection-Analysis/
+Link: 👉👉 https://xinzewang.github.io/Intersection-Analysis/ 👈👈
 
 All the materials for building the website are in folder "Website Visualization"
 
