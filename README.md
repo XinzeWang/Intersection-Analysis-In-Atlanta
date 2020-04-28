@@ -1,3 +1,6 @@
+![Xinze](https://img.shields.io/badge/Language-JavaScript+Python-brightgreen)
+[![Licence](https://img.shields.io/badge/license-GPL--3.0-blue.svg)](https://github.com/XinzeWang/Intersection-Analysis/raw/master/LICENSE) 
+
 # Intersection Analysis in Atlanta
 
 ![title_logo](https://github.com/XinzeWang/Intersection-Analysis/raw/master/readme-resource/logo.png)
